@@ -382,6 +382,10 @@ nav .main-menu .dropdown-submenu > span.dropdown-menu-title-only {
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
 }
+
+.home-menu > ul > li > a {
+    color: #fff;
+}
 nav .main-menu li > a:hover,
 nav .main-menu li > a:focus,
 nav .main-menu .dropdown.open > a:hover,
