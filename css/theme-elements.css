@@ -2487,15 +2487,12 @@ Image Boxes
 
 .image-box {
     position: relative;
+    margin: 0 auto;
     overflow: hidden;
-    width: 100%;
-    /*margin-bottom: 30px;*/
-    float: left;
+    width: 50%;
+    margin-bottom: 30px;
 }
-.image-box {
-    max-height: 254px;
-}
-.col-no-margin .image-box,
+.col-no-margin,
 .col-no-margin [class*="col-"] {
     margin: 0;
 }
@@ -2603,8 +2600,8 @@ Image Boxes
     clear: both;
 }
 .image-box.circle-image.small {
-    height: 120px;
-    width: 120px;
+    height: 180px;
+    width: 180px;
 }
 .image-box.circle-image.medium {
     height: 180px;
