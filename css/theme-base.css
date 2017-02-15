@@ -386,6 +386,7 @@ nav .main-menu .dropdown-submenu > span.dropdown-menu-title-only {
 .home-menu > ul > li > a {
     color: #fff;
 }
+
 nav .main-menu li > a:hover,
 nav .main-menu li > a:focus,
 nav .main-menu .dropdown.open > a:hover,
