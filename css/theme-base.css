@@ -140,6 +140,11 @@ p.lead {
     Fonts
 -----------------------------------------------------------------*/
 
+.container-fullscreen h2 {
+    font-family: 'Italianno', cursive;
+    font-size: 70px;
+}
+
 .font-pacifico {
     font-family: 'Dancing Script' !important;
 }
