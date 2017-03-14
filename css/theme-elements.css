@@ -6167,6 +6167,10 @@ TESTIMONIALS
 .testimonial {
     border: 0;
 }
+#section-testimonials {
+    background-color: #f58900;
+    padding: 40px 0;
+}
 .testimonial .testimonial-description {
     background-color: #f8f8f8;
     border-radius: 4px;
@@ -6333,9 +6337,10 @@ TESTIMONIALS
     font-size: 16px;
     margin-bottom: 0;
     padding-bottom: 10px;
+    color: #fff;
 }
 #testimonials .testimonial-item > span {
-    color: #ccc;
+    color: #fff;
 }
 
 /*Left aligned*/

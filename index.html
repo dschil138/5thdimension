@@ -87,7 +87,7 @@
                                     </li>
                                     <li class="dropdown mega-menu-item"> <a href="our-work.html">Our Work</a>   
                                     </li>
-                                    <li class="dropdown mega-menu-item"> <a href="#request-an-estimate">Request An Estimate</a>
+                                    <li class="dropdown mega-menu-item"> <a href="contact.html">Request An Estimate</a>
 
                                     </li>
                                     <li class="dropdown"> <a href="contact.html">Contact Us</a>
@@ -118,25 +118,78 @@
 			</div>
 		</section>
 		<!-- END: SECTION IMAGE FULLSCREEN -->
-
-        <!-- CALL TO ACTION -->
-        <div class="jumbotron jumbotron-fullwidth background-colored text-light m-b-0">
+        
+        <!-- Testimonial -->
+        <section id="section-testimonials">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <img src="homepages/car-service/images/icons/5.png" alt="">
-                    </div>
-                    <div class="col-sm-10">
-                        <h3>Remember: It is ALWAYS your choice where to get your car repaired.</h3>
-                        <p>Don't let your insurance company push you around. We can get you an estimate today.</p><a href="#request-an-estimate" class="button button-light rounded">Request an Estimate</a>
-                    </div>
+                <!-- Heading -->
+                <div class="text-center m-b-60">
+                    <h2>Here's what our customers are saying about us:</h2>
+                    <!--<p>Here's what some of our valued customers had to say:</p>-->
                 </div>
+                <!-- End: Heading -->
 
+                <!-- Testimonials -->
+                <div id="testimonials">
 
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <p>The people were great and the work was done fast and professionally. Can not recommend Fifth Dimension highly enough. They did a fantastic job.</p>
+                        <span>Rob Walls, Google Review, 2014</span>
+                    </div>
+                    <!-- End: Testimonials item-->
+
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <p>The entire staff were so helpful and kept me informed through the entire process. I highly recommend Fifth Dimension Collision Repair!</p>
+                        <span>Google Review, Karen, 2016</span>
+                    </div>
+                    <!-- End: Testimonials item-->
+
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <p>These people are the real deal. They are very professional, honest and open about the work they do and the cost associated with the repairs.</p>
+                        <span>Gina, Google Review, 2015</span>
+                    </div>
+                    <!-- End: Testimonials item-->
+                    
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <p>Excellent, Excellent, Excellent....You won't be disappointed.</p>
+                        <span>Roberta, 2015, Google Review, 2015</span>
+                    </div>
+                    <!-- End: Testimonials item-->
+
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <p>Fantastic service from people that know (and love) what they're doing. Absolutely the best in the area.</p>
+                        <span>Steve, Google Review, 2016</span>
+                    </div>
+                    <!-- End: Testimonials item-->
+                    
+                </div>
+                <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        $("#testimonials").owlCarousel({
+                            margin: 60,
+                            nav: true,
+                            navText: ['<i class="fa fa-arrow-left icon-white"></i>', '<i class="fa fa-arrow-right icon-white"></i>'],
+                            autoplay: false,
+                            autoplayHoverPause: true,
+                            dots: true,
+                            singleItem: true,
+                            items: 1,
+                           
+                        });
+                    });
+
+                </script>
+                <!-- End: Testimonials -->
             </div>
-        </div>
-        <!-- END: CALL TO ACTION -->
+        </section>
+        <!-- End: Testimonial -->
 
+    
         <!-- SERVICES -->
         <section class="text-center">
 
@@ -177,7 +230,7 @@
         <!-- END page jump -->    
             
         <!-- FAQ & OPENING HOURS -->
-        <section>
+       <!-- <section>
         <div id="estimate-background">    
             <div class="container">
                 <div class="row">
@@ -273,7 +326,7 @@
 
             </div>
         </div>    
-        </section>
+        </section>-->
         <!-- END: FAQ & OPENING HOURS -->
 
         <!-- MAP -->
@@ -300,70 +353,33 @@
 			<div class="row">
 
 
-				<div class="col-md-4">
-					<div class="widget clearfix widget-contact-us" style="background-image: url('images/world-map.png'); background-position: 50% 55px; background-repeat: no-repeat">
-						<h4 class="widget-title">Contact us</h4>
+				<div class="col-sm-4">
+					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
 						<ul class="list-large list-icons">
 							<li><i class="fa fa-map-marker"></i>
 								<strong>Address:</strong> 2702 N Mattis Ave
 								<br>Champaign, IL 61822</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+                    					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
+						<ul class="list-large list-icons">
 							<li><i class="fa fa-phone"></i><strong>Phone:</strong> (217) 531-2695 </li>
 							<li><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:smiller@5dcollision.com">smiller@5dcollision.com</a>
 							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-4">	
+                    					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
+						<ul class="list-large list-icons">
 							<li><i class="fa fa-clock-o"></i>Monday - Friday: <strong>08:00am - 5:00pm</strong>
 								<br>Saturday: <strong>8:00am - 12:00pm</strong>
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="widget clearfix widget-tweeter">
-                        <h4 class="widget-title">Recent Tweets</h4>
-                    </div>
-				</div>
-
-				<div class="col-md-4">
-
-					<div class="widget clearfix widget-newsletter">
-                                <form id="widget-subscribe-form" action="include/subscribe-form.php" role="form" method="post" class="form-inline">
-                                    <h4 class="widget-title">Newsletter</h4>
-                                    <small>Stay informed on our latest news!</small>
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
-                                        <input type="email" aria-required="true" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-                                        <span class="input-group-btn">
-											<button type="submit" id="widget-subscribe-submit-button" class="btn btn-primary">Subscribe</button>
-										</span>
-                                    </div>
-                                </form>
-                                <script type="text/javascript">
-                                    jQuery("#widget-subscribe-form").validate({
-                                        submitHandler: function(form) {
-                                            jQuery(form).ajaxSubmit({
-                                                dataType: 'json',
-                                                success: function(text) {
-                                                    if (text.response == 'success') {
-                                                        $.notify({
-                                                            message: "You have successfully subscribed to our mailing list."
-                                                        }, {
-                                                            type: 'success'
-                                                        });
-                                                        $(form)[0].reset();
-
-                                                    } else {
-                                                        $.notify({
-                                                            message: text.message
-                                                        }, {
-                                                            type: 'warning'
-                                                        });
-                                                    }
-                                                }
-                                            });
-                                        }
-                                    });
-                                  </script>
-                            </div>
-
 				</div>
 
 			</div>

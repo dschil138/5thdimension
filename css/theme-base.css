@@ -132,6 +132,10 @@ p.lead {
     margin-bottom: 20px;
 }
 
+.m-b-60 h2 {
+    color: #fff;
+}
+
 /* ----------------------------------------------------------------
     Fonts
 -----------------------------------------------------------------*/
@@ -221,6 +225,10 @@ h4.font-parisienne,
 h5.font-parisienne,
 h6.font-parisienne {
     font-family: 'Parisienne', cursive;
+}
+
+.team-title-description {
+    font-size: 20px;
 }
 
 /* ----------------------------------------------------------------

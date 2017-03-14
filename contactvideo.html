@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>5th Dimension Collision Repair</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="vendor/animateit/animate.min.css" rel="stylesheet">
+
+    <!-- Vendor css -->
+    <link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Template base -->
+    <link href="css/theme-base.css" rel="stylesheet">
+
+    <!-- Template elements -->
+    <link href="css/theme-elements.css" rel="stylesheet">
+
+    <!-- Responsive classes -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+    <!-- Template color -->
+    <link href="css/color-variations/orange.css" rel="stylesheet" type="text/css" media="screen" title="orange">
+
+    <!-- LOAD GOOGLE FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
+
+    <!-- CSS CUSTOM STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
+    <!--VENDOR SCRIPT-->
+    <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="vendor/plugins-compressed.js"></script>
+</head>
+
+<body class="wide">
+    
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+
+        <!-- HEADER -->
+        <header id="header" class="header-transparent">
+            <div id="header-wrap">
+                <div class="container">
+
+                    <!--LOGO-->
+                    <div id="logo">
+                        <a href="index.html" class="logo" data-dark-logo="images/logo-dark.png"> <img src="images/logo.png" alt="Polo Logo"> </a>
+                    </div>
+                    <!--END: LOGO-->
+
+                    <!--MOBILE MENU -->
+                    <div class="nav-main-menu-responsive">
+                        <button class="lines-button x"> <span class="lines"></span> </button>
+                    </div>
+                    <!--END: MOBILE MENU -->
+
+                    <!--NAVIGATION-->
+<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+                        <div class="container">
+                            <nav id="mainMenu">
+                                <ul class="main-menu nav nav-pills">
+                                    <li><a href="index.html"><i class="fa fa-home"></i></a>
+                                    </li>
+                                    <li class="dropdown"> <a href="staff.html">About Us</a>
+                                    </li>
+                                    <li class="dropdown mega-menu-item"> <a href="our-work.html">Our Work</a>
+                                    </li>
+                                    <li class="dropdown mega-menu-item"> <a href="contact.html">Request An Estimate</a>
+
+                                    </li>
+                                    <li class="dropdown"> <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--END: NAVIGATION-->
+                </div>
+            </div>
+        </header>
+        <!-- END: HEADER -->
+
+        <!-- PAGE TITLE -->
+        <section id="page-title" class="page-title-parallax page-title-center text-dark" style="background-image:url(images/parallax/page-title-parallax.jpg);">
+            <div class="container">
+                <div class="page-title col-md-8" data-animation="fadeInDown" data-animation-delay="300">
+                    <h1>REQUEST AN ESTIMATE</h1>
+            </div>
+            </div>        
+        </section>
+        <!-- END: PAGE TITLE -->
+        
+        <!-- VIDEO -->
+        <section class="fullscreen background-overlay" data-vide-bg="video/bg" data-vide-options="position: 0% 50%">
+			<div class="container-fluid">
+				<div class="col-md-6 background-colored text-light p-40">
+                        <div class="text-medium">REQUEST AN ESTIMATE</div>
+                        <h4>You will recieve a response within the hour.</h4>
+                        <form id="widget-contact-form" action="contact-form.php" role="form" method="post">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                            </div>
+                             <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Phone Number</label>
+                                <input type="text" aria-required="true" name="widget-contact-form-phone" class="form-control required" placeholder="Enter your Phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Describe Your Issue</label>
+                                <textarea type="text" name="widget-contact-form-message" rows="7" class="form-control required" placeholder="Enter your Message"></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="text" class="hidden" id="widget-contact-form-antispam" name="widget-contact-form-antispam" value="" />
+                                <button class="btn button-light" type="submit" id="form-submit">Send message</button>
+                            </div>
+                        </form>
+                        <script type="text/javascript">
+                            jQuery("#widget-contact-form").validate({
+
+                                submitHandler: function(form) {
+
+                                    jQuery(form).ajaxSubmit({
+                                        success: function(text) {
+                                            if (text.response == 'success') {
+                                                $.notify({
+                                                    message: "We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible."
+                                                }, {
+                                                    type: 'success'
+                                                });
+                                                $(form)[0].reset();
+
+                                            } else {
+                                                $.notify({
+                                                    message: text.message
+                                                }, {
+                                                    type: 'danger'
+                                                });
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+
+                        </script>
+                    </div>
+
+                </div>
+			</div>
+		</section>
+<!-- END: VIDEO -->
+
+        <!-- FOOTER -->
+        <footer class="background-dark text-grey" id="footer">
+
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row text-center">
+                        <img alt="" src="images/logo-sm-dark.png">
+                        <div class="text-center">5th Dimension Collision Repair
+                        </div>
+
+                    </div>
+
+
+                    <div class="seperator seperator-dark seperator-simple"></div>
+			<div class="row">
+
+
+				<div class="col-sm-4">
+					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
+						<ul class="list-large list-icons">
+							<li><i class="fa fa-map-marker"></i>
+								<strong>Address:</strong> 2702 N Mattis Ave
+								<br>Champaign, IL 61822</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+                    					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
+						<ul class="list-large list-icons">
+							<li><i class="fa fa-phone"></i><strong>Phone:</strong> (217) 531-2695 </li>
+							<li><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:smiller@5dcollision.com">smiller@5dcollision.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-4">	
+                    					<div class="widget clearfix widget-contact-us" style="background-image: url(''); background-position: 50% 55px; background-repeat: no-repeat">
+						<ul class="list-large list-icons">
+							<li><i class="fa fa-clock-o"></i>Monday - Friday: <strong>08:00am - 5:00pm</strong>
+								<br>Saturday: <strong>8:00am - 12:00pm</strong>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="copyright-text text-center"> &copy; 2017 5th Dimension Collision Repair<br>Website by <a target="_blank" href="http://davidaschiller.com/">Cradle Media</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: FOOTER -->
+
+    </div>
+    <!-- END: WRAPPER -->
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme-functions.js"></script>
+
+    <!-- Custom js file -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
