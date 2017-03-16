@@ -6334,7 +6334,7 @@ TESTIMONIALS
     border-radius: 50%;
 }
 #testimonials .testimonial-item > p {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 0;
     padding-bottom: 10px;
     color: #fff;
@@ -6356,6 +6356,12 @@ TESTIMONIALS
 #testimonials.testimonials-left .testimonial-item > p,
 #testimonials.testimonials-left .testimonial-item > span {
     margin-left: 90px;
+}
+
+.testimonial-stars {
+    margin: 0 auto 20px;
+    display: block;
+    width: 100px !important;
 }
 
 /* ----------------------------------------------------------------------

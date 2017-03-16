@@ -2072,8 +2072,8 @@ body.wide #header.header-fullwidth nav .main-menu .mega-menu-item .dropdown-menu
 #header.header-light-transparent + .page-title-parallax,
 #header.header-dark-transparent + .page-title-video,
 #header.header-dark-transparent + .page-title-parallax {
-    padding-top: 170px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 .page-title-parallax {
     border-bottom: 5px solid #eee !important;
