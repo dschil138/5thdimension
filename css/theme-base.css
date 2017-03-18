@@ -2948,6 +2948,7 @@ footer.background-grey .copyright-content {
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 body.device-xs .text-medium,
 body.device-xs .text-medium-light {
