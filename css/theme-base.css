@@ -1979,6 +1979,7 @@ body.wide #header.header-fullwidth nav .main-menu .mega-menu-item .dropdown-menu
 }
 .page-title h1 {
     display: block;
+    text-align: center;
     font-size: 42px;
     font-weight: 800;
     line-height: 1.2;
