@@ -28,10 +28,10 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset($antispam) && $antispam == '')
                 //If you don't receive the email, enable and configure these parameters below: 
      
                 //$mail->isSMTP();                                      // Set mailer to use SMTP
-                //$mail->Host = 'mail.yourserver.com';                  // Specify main and backup SMTP servers, example: smtp1.example.com;smtp2.example.com
+                //$mail->Host = 'mail.5dcollision.com';                  // Specify main and backup SMTP servers, example: smtp1.example.com;smtp2.example.com
                 //$mail->SMTPAuth = true;                               // Enable SMTP authentication
-                //$mail->Username = 'SMTP username';                    // SMTP username
-                //$mail->Password = 'SMTP password';                    // SMTP password
+                //$mail->Username = 'test@5dcollision.com';                    // SMTP username
+                //$mail->Password = 'sk8sk8sk8';                    // SMTP password
                 //$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
                 //$mail->Port = 587;                                    // TCP port to connect to 
      
