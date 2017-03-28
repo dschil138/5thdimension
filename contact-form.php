@@ -9,6 +9,7 @@ $mail = new PHPMailer();
 
 // Enter your email address:
 $to = "davidschiller138@gmail.com";
+$to = "meatwaddancin@gmail.com";
 
 // Form Fields
 $name = $_POST["widget-contact-form-name"];

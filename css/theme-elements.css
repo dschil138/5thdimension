@@ -157,6 +157,12 @@
 	Buttons
 -------------------------------------------------------------------------*/
 
+.cta:hover {
+    background-color: #f58900;
+    transition: background-color 0.1s;
+    border: 1px solid #f58900;
+}
+
 .btn {
     border-radius: 3px;
     font-size: 12px;
