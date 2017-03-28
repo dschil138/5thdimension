@@ -6914,6 +6914,16 @@ Portfolio Carousel
     background-attachment: scroll !important;
     background-position: center center !important;
 }
+.background-overlay {
+    min-height: 850px !important;
+}
+/*XS*/
+@media (max-width: 767px) {
+    .background-overlay{
+        min-height: 0 !important;
+        height: auto !important;
+    }
+}
 .background-overlay-gradient > .container,
 .background-overlay-gradient-dark > .container,
 .background-overlay > .container,
